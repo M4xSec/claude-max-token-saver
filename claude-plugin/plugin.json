@@ -1,0 +1,20 @@
+{
+  "name": "max-token-saver",
+  "version": "1.0.0",
+  "description": "Max-Token-Saver: aggressive token savings through compact responses, tool-output filtering, adaptive thresholds, context compression, prompt guidance, and drift guardrails for Claude Code Max users.",
+  "author": {
+    "name": "venexy"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "tokens",
+    "context",
+    "compression",
+    "usage",
+    "max-token-saver"
+  ],
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "hooks": "./hooks/hooks.json"
+}
