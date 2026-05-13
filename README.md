@@ -12,6 +12,7 @@ Aggressive token savings plugin for Claude Code. Saves tokens through 5 mechanis
 
 ```bash
 git clone https://github.com/M4xSec/claude-max-token-saver/
+cd claude-max-token-saver ; mv claude-plugin .claude-plugin
 chmod +x install.sh
 bash install.sh --force
 ```
