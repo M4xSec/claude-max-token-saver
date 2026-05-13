@@ -11,6 +11,8 @@ Aggressive token savings plugin for Claude Code. Saves tokens through 5 mechanis
 ## Install
 
 ```bash
+git clone https://github.com/M4xSec/claude-max-token-saver/
+chmod +x install.sh
 bash install.sh --force
 ```
 
@@ -75,8 +77,10 @@ Restart Claude Code after installation.
 ## Uninstall
 
 ```bash
-rm -rf ~/.claude/plugins/marketplaces/max-token-saver
-rm -rf ~/.claude/plugins/max-token-saver
+chmod +x uninstall.sh
+bash uninstall.sh 
+# OR
+rm -rf ~/.claude/plugins/marketplaces/max-token-saver ; rm -rf ~/.claude/plugins/max-token-saver
 ```
 
 ## License
